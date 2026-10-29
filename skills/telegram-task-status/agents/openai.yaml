@@ -1,0 +1,14 @@
+interface:
+  display_name: Avisar status no Telegram
+  short_description: Enviar conclusão e bloqueios dos agentes ao Telegram
+  default_prompt: Use $telegram-task-status para avisar no Telegram quando esta tarefa
+    terminar ou ficar bloqueada.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
